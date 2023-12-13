@@ -1,14 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import RemoteControlScreens from './screens/remoteControlScreens/remoteControlScreens';
 
 export default function App() {
   return (
     
     <View style={styles.container}>
-      <Text style ={styles.text}>Open up App.tsx to start working on your app!</Text>
+     <RemoteControlScreens message='Hello'></RemoteControlScreens>
       <StatusBar style="auto" ></StatusBar>
-      <myButton isImage = false ></myButton>
-    </View>
+     
+         </View>
     
   );
 }
