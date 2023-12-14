@@ -6,10 +6,10 @@ export default function App() {
   return (
     
     <View style={styles.container}>
-     <RemoteControlScreens message='Hello'></RemoteControlScreens>
-      <StatusBar style="auto" ></StatusBar>
+     <RemoteControlScreens></RemoteControlScreens>
+     <StatusBar style="auto" ></StatusBar>
      
-         </View>
+    </View>
     
   );
 }
