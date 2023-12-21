@@ -1,160 +1,196 @@
 <mxfile host="65bd71144e">
     <diagram id="F5eotLwcgXA6Ba58Yby2" name="Page-1">
-        <mxGraphModel dx="1484" dy="1776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="2149" dy="1691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CC99FF;fillColor=none;gradientColor=none;strokeWidth=6;" vertex="1" parent="1">
-                    <mxGeometry x="110" y="117.5" width="1430" height="650" as="geometry"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CC99FF;fillColor=none;gradientColor=none;strokeWidth=6;" parent="1" vertex="1">
+                    <mxGeometry x="-320" y="117.5" width="1860" height="650" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="4" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="150" y="160" width="200" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="&lt;ul style=&quot;&quot;&gt;&lt;li&gt;Make sure the back of the alarm is switched to &quot;Setup&quot;&lt;/li&gt;&lt;li&gt;Go to Settings &amp;gt; Wifi &amp;gt; and connect to the alarms wifi&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;align=left;" vertex="1" parent="1">
+                <mxCell id="9" value="&lt;ul style=&quot;&quot;&gt;&lt;li&gt;Make sure the back of the alarm is switched to &quot;Setup&quot;&lt;/li&gt;&lt;li&gt;Go to Settings &amp;gt; Wifi &amp;gt; and connect to the alarms wifi&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;align=left;" parent="1" vertex="1">
                     <mxGeometry x="460" y="250" width="160" height="210" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" style="edgeStyle=none;html=1;" edge="1" parent="1" source="11" target="12">
+                <mxCell id="19" style="edgeStyle=none;html=1;" parent="1" source="11" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="11" value="" style="shape=cross;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="11" value="" style="shape=cross;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="300" y="230" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" style="edgeStyle=none;html=1;" edge="1" parent="1" source="12" target="24">
+                <mxCell id="25" style="edgeStyle=none;html=1;" parent="1" source="12" target="24" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
+                <mxCell id="12" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;align=center;" parent="1" vertex="1">
                     <mxGeometry x="440" y="170" width="200" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.loading_circle;strokeColor=#FFFFFF;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="23" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=2;shape=mxgraph.ios7.misc.loading_circle;strokeColor=#FFFFFF;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="530" y="430" width="30" height="25" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
+                <mxCell id="24" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;align=center;" parent="1" vertex="1">
                     <mxGeometry x="720" y="170" width="200" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="26" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="750" y="270" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="28" value="WifiName" style="text;fontColor=#0080f0;fontSize=10;verticalAlign=middle;align=right;spacingTop=2;spacingRight=4;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="26">
+                <mxCell id="28" value="WifiName" style="text;fontColor=#0080f0;fontSize=10;verticalAlign=middle;align=right;spacingTop=2;spacingRight=4;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="26" vertex="1">
                     <mxGeometry width="50.30487804878049" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="31" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="750" y="310" width="150" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="WifiPassword" style="text;fontColor=#0080f0;fontSize=10;verticalAlign=middle;align=right;spacingTop=2;spacingRight=4;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="31">
+                <mxCell id="32" value="WifiPassword" style="text;fontColor=#0080f0;fontSize=10;verticalAlign=middle;align=right;spacingTop=2;spacingRight=4;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="31" vertex="1">
                     <mxGeometry x="20" width="50.30487804878049" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="56" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="35">
+                <mxCell id="56" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="35" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="780" y="660" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="Connect" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="35" value="Connect" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="750" y="420" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="36" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="980" y="170" width="200" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="37" target="42">
+                <mxCell id="47" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="37" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="Alarm1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="37" value="Alarm1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1000" y="270" width="160" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="" style="shape=cross;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="40" value="" style="shape=cross;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1130" y="240" width="20" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="add alarm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="41" value="add alarm" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="360" y="250" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;" edge="1" parent="1" source="42" target="72">
+                <mxCell id="76" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;" parent="1" source="42" target="72" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="D" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="42" value="D" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1290" y="170" width="200" height="400" as="geometry"/>
                 </mxCell>
-                <mxCell id="51" style="edgeStyle=none;html=1;" edge="1" parent="1" source="50" target="42">
+                <mxCell id="51" style="edgeStyle=none;html=1;" parent="1" source="50" target="42" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="Alarm1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="50" value="Alarm1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1310" y="230" width="160" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="We put stuff here to edit and modify alarm settings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" vertex="1" parent="1">
+                <mxCell id="54" value="We put stuff here to edit and modify alarm settings" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" parent="1" vertex="1">
                     <mxGeometry x="1340" y="350" width="100" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="59" value="At this point the adHocWifi should turn off on its own" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="59" value="At this point the adHocWifi should turn off on its own" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="630" y="660" width="300" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="88" style="edgeStyle=none;html=1;strokeWidth=5;startArrow=classic;startFill=1;" edge="1" parent="1">
+                <mxCell id="88" style="edgeStyle=none;html=1;strokeWidth=5;startArrow=classic;startFill=1;fillColor=#d80073;strokeColor=#A50040;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="560" y="-390" as="sourcePoint"/>
                         <mxPoint x="560" y="-310" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="62" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Physical Device" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="97" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="62" target="96">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="62" target="98">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Physical Device" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="430" y="-460" width="500" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="A" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="63" value="A" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="445" y="-450" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="B" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="64" value="B" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="495" y="-450" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="65" value="C" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="65" value="C" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="545" y="-450" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="D" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="66" value="D" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="595" y="-450" width="40" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="Connect to Adhoc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="68" value="Connect to Adhoc" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="520" y="20" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="70" value="Give Home WIfi Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="70" value="Give Home WIfi Data" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="770" y="35" width="140" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="72" value="ONLINE SERVER" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="1250" y="-250" width="205" height="230" as="geometry"/>
+                <mxCell id="72" value="ONLINE SERVER" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="1250" y="-440" width="205" height="420" as="geometry"/>
                 </mxCell>
-                <mxCell id="74" value="INTERNET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="74" value="INTERNET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="760" y="-230" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="75" value="INTERNET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="75" value="INTERNET" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="1370" y="60" width="80" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" style="edgeStyle=none;html=1;entryX=1;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=1;startArrow=classic;startFill=1;exitX=-0.013;exitY=0.634;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=5;" edge="1" parent="1" source="72" target="86">
+                <mxCell id="77" style="edgeStyle=none;html=1;entryX=1;entryY=0.583;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=1;startArrow=classic;startFill=1;exitX=-0.013;exitY=0.634;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=5;" parent="1" source="72" target="86" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="968.2692307692305" y="70" as="sourcePoint"/>
                         <mxPoint x="950" y="-120" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="85" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="85" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="510" y="-300" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="86" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                <mxCell id="86" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.wifi;pointerEvents=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
                     <mxGeometry x="740" y="-300" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="90" style="edgeStyle=none;html=1;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;" edge="1" parent="1">
+                <mxCell id="90" style="edgeStyle=none;html=1;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;" parent="1" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="800" y="-400" as="sourcePoint"/>
                         <mxPoint x="800" y="-310" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="91" style="edgeStyle=none;html=1;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;" edge="1" parent="1" source="24">
+                <mxCell id="91" style="edgeStyle=none;html=1;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="24" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="835" y="-140" as="sourcePoint"/>
                         <mxPoint x="570" y="-220" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="93" style="edgeStyle=none;html=1;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;exitX=0.48;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="12">
+                <mxCell id="93" style="edgeStyle=none;html=1;horizontal=1;startArrow=classic;startFill=1;strokeWidth=5;exitX=0.48;exitY=0.001;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="12" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="743.3333333333335" y="180.00000000000023" as="sourcePoint"/>
                         <mxPoint x="560" y="-220" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="94" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7ui.onOffButton;buttonState=on;strokeColor=#38D145;strokeColor2=#aaaaaa;fillColor=#CC99FF;fillColor2=#ffffff;" vertex="1" parent="1">
+                <mxCell id="94" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7ui.onOffButton;buttonState=on;strokeColor=#38D145;strokeColor2=#aaaaaa;fillColor=#CC99FF;fillColor2=#ffffff;" parent="1" vertex="1">
                     <mxGeometry x="676.5" y="-450" width="53.5" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="95" value="Local Area Wifi (ADHOC)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="95" value="Local Area Wifi (ADHOC)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="385" y="-250" width="160" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.bluetooth;pointerEvents=1" vertex="1" parent="1">
+                    <mxGeometry x="50" y="-450" width="120" height="188.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.sun;pointerEvents=1" vertex="1" parent="1">
+                    <mxGeometry x="271" y="-800" width="174" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="uuid-&amp;gt; abcd&lt;br&gt;userId-&amp;gt;1235" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="780" y="-510" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="userId:1235" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="355" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="" style="html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.ios7.misc.iphone;strokeColor=#c0c0c0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-220" y="160" width="200" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="107" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="-195" y="270" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="username" style="text;fontColor=#0080f0;fontSize=10;verticalAlign=middle;align=right;spacingTop=2;spacingRight=4;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="107">
+                    <mxGeometry width="50.30487804878049" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="shape=rect;fillColor=#F6F6F8;strokeColor=none;strokeWidth=1;" vertex="1" parent="1">
+                    <mxGeometry x="-195" y="310" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="password" style="text;fontColor=#0080f0;fontSize=10;verticalAlign=middle;align=right;spacingTop=2;spacingRight=4;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="109">
+                    <mxGeometry x="20" width="50.30487804878049" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="Connect" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="-195" y="390" width="140" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
