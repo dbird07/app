@@ -1,23 +1,27 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import RemoteControlScreens from './screens/remoteControlScreens/remoteControlScreens';
+import LoginScreen from './screens/LoginScreen/Login.screen';
 
 export default function App() {
   return (
     
     <View style={styles.container}>
-     <RemoteControlScreens></RemoteControlScreens>
-     <StatusBar style="auto" ></StatusBar>
+      <LoginScreen></LoginScreen>
+      <StatusBar style="auto" ></StatusBar>
      
     </View>
-    
+
+
   );
 }
 
 const styles = StyleSheet.create({
+  //red background
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    flexDirection: 'row',
+    margin: 50,
     alignItems: 'center',
     justifyContent: 'center',
   },

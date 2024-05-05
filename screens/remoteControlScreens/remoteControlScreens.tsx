@@ -3,7 +3,9 @@ import React from 'react';
 import { View, Text, StyleSheet, Button, TextInput } from 'react-native';
 
 // Define the props interface for the component
-interface RemoteControlScreensProps {}
+interface RemoteControlScreensProps {
+  x?: number;
+}
 
 // Define the functional component using TypeScript
 const RemoteControlScreens: React.FC<RemoteControlScreensProps> = (props) => {
