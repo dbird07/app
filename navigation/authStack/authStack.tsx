@@ -19,6 +19,13 @@ const AuthStack: React.FC<AuthStackProps> = (props) => {
           options={{ title: 'Sign In' }}
         />
       </Stack.Navigator>
+      {/* <Stack.Navigator>
+        <Stack.Screen
+          name="ForgotPassword"
+          component={LoginScreen}
+          options={{ title: 'Sign In' }}
+        />
+      </Stack.Navigator> */}
     </NavigationContainer>
   );
 };
