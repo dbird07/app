@@ -3,11 +3,12 @@ import { StyleSheet, Text, View } from 'react-native';
 import LoginScreen from './screens/LoginScreen/Login.screen';
 import AuthStack from './navigation/authStack/authStack';
 import React from 'react';
+import MainStack from './navigation/mainStack/mainStack';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {true ? <AuthStack></AuthStack> : <></>}
+      {false ? <AuthStack></AuthStack> : <MainStack></MainStack>}
       <StatusBar style="auto"></StatusBar>
     </View>
   );
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     flexDirection: 'row',
-    margin: 50,
+    margin: 0,
     alignItems: 'center',
     justifyContent: 'center',
   },
