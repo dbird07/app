@@ -3,38 +3,70 @@ import React from 'react';
 import { View, StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { RoomListDataInterface } from './types';
 import { Swipeable } from 'react-native-gesture-handler';
+import { Switch } from 'react-native-paper';
+import { useNavigation } from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { RootStackParamList } from '../../navigation/mainStack/mainStack';
 //https://callstack.github.io/react-native-paper/docs/components/TextInput/
 // Define the props interface for the component
 
 // Define the functional component using TypeScript
-const DeviceListItem: React.FC<{ deviceData: RoomListDataInterface }> = (
-  props,
-) => {
+const DeviceListItem: React.FC<{
+  deviceData: RoomListDataInterface;
+}> = (props) => {
   const { deviceData } = props;
+  const navigation =
+    useNavigation<StackNavigationProp<RootStackParamList, 'HomeScreen'>>(); // Get the navigation object using the hook
+
+  const onDeviceViewPress = () => {
+    navigation.navigate('DeviceViewScreen', { deviceData });
+  };
 
   return (
-    <Swipeable
-      renderRightActions={() => <Text style={styles.text}>Delete</Text>}
-    >
-      <View style={styles.main}>
+    <TouchableOpacity style={styles.main} onPress={onDeviceViewPress}>
+      <View style={styles.leftBox}>
         <Text style={styles.text}>{deviceData.roomName} </Text>
-        {deviceData.treatStatus == 'empty' ? (
-          <Text>Out of Treats</Text>
-        ) : (
-          <Text>Good</Text>
-        )}
       </View>
-    </Swipeable>
+
+      <View style={styles.rightBox}>
+        <Switch value={true} onValueChange={() => {}} />
+      </View>
+    </TouchableOpacity>
   );
+
+  // return (
+  //   <Swipeable
+  //     renderRightActions={() => <Text style={styles.text}>Delete</Text>}
+  //   >
+  //     <View style={styles.main}>
+  //       <Text style={styles.text}>{deviceData.roomName} </Text>
+  //     </View>
+  //   </Swipeable>
+
+  // );
 };
 
 // Create a stylesheet for styling the component
 const styles = StyleSheet.create({
   main: {
-    backgroundColor: '#f9c2ff',
-    padding: 20,
+    flexDirection: 'row',
+    backgroundColor: 'yellow',
+    borderRadius: 10,
+    padding: 2,
     marginVertical: 8,
     marginHorizontal: 16,
+  },
+  leftBox: {
+    borderColor: 'black',
+    borderWidth: 1,
+    backgroundColor: 'lightgrey',
+    flex: 1,
+  },
+  rightBox: {
+    borderColor: 'black',
+    borderWidth: 1,
+    backgroundColor: 'red',
+    flex: 1,
   },
   text: {
     fontSize: 18,
