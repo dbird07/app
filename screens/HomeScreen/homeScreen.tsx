@@ -30,6 +30,8 @@ const DATA: RoomListDataInterface[] = [
 
 // Define the functional component using TypeScript
 const HomeScreen: React.FC<HomeScreenProps> = (props) => {
+  const onListItemPress = (deviceData: RoomListDataInterface) => {};
+
   return (
     <FlatList
       style={styles.container}
