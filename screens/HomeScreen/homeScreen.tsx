@@ -1,5 +1,5 @@
 // Import necessary modules from React and React Native
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   StyleSheet,
@@ -9,36 +9,40 @@ import {
 } from 'react-native';
 import DeviceListItem from '../../components/DeviceListItem/deviceListItem';
 import { RoomListDataInterface } from '../../components/DeviceListItem/types';
+import { InitialRoomData } from './testData';
+import { Button } from 'react-native-paper';
 //https://callstack.github.io/react-native-paper/docs/components/TextInput/
 // Define the props interface for the component
 interface HomeScreenProps {}
-
-const DATA: RoomListDataInterface[] = [
-  {
-    id: '1',
-    roomName: 'Living Room',
-    treatStatus: 'empty',
-    countDown: '',
-  },
-  {
-    id: '2',
-    roomName: 'Bedroom',
-    treatStatus: '',
-    countDown: '',
-  },
-];
 
 // Define the functional component using TypeScript
 const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   const onListItemPress = (deviceData: RoomListDataInterface) => {};
 
+  const [RoomData, setRoomData] = useState<RoomListDataInterface[]>([]);
+
+  const onRandomRoomDataPress = () => {
+    setRoomData([
+      ...RoomData,
+      {
+        id: Math.random().toString(),
+        roomName: 'Random Room',
+        treatStatus: 'empty',
+        countDown: '',
+      },
+    ]);
+  };
+
   return (
-    <FlatList
-      style={styles.container}
-      data={DATA}
-      renderItem={({ item }) => <DeviceListItem deviceData={item} />}
-      keyExtractor={(item) => item.id}
-    />
+    <>
+      <Button onPress={onRandomRoomDataPress}> Add Randrom Data </Button>
+      <FlatList
+        style={styles.container}
+        data={RoomData}
+        renderItem={({ item }) => <DeviceListItem deviceData={item} />}
+        keyExtractor={(item) => item.id}
+      />
+    </>
   );
 };
 

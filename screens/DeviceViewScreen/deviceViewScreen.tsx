@@ -2,30 +2,40 @@
 import React from 'react';
 import { Button, TextInput, Switch } from 'react-native-paper';
 import { View, StyleSheet, Text } from 'react-native';
+import { RoomListDataInterface } from '../../components/DeviceListItem/types';
 //https://callstack.github.io/react-native-paper/docs/components/TextInput/
 // Define the props interface for the component
 
 // Define the functional component using TypeScript
-const DeviceViewScreen: React.FC = () => {
+
+interface DeviceViewScreenProps {
+  roomData: RoomListDataInterface;
+  onModifyRoomData: (id: string, newData: RoomListDataInterface) => void;
+}
+
+const DeviceViewScreen: React.FC<DeviceViewScreenProps> = () => {
   return (
     <View style={styles.main}>
       <Text style={styles.lifetime}>Lifetime Stats</Text>
-      <View style={styles.upperBox}>
-        <Text style={styles.dispensed}>Treats Dispensed</Text>
-      </View>
-      <View style={styles.middleBox}>
-        <TextInput label={'Rings Per Hour'}></TextInput>
+      {/* <View style={styles.upperBox}> */}
+      <Text style={styles.dispensed}>Treats Dispensed</Text>
+      {/* </View> */}
+      {/* <View style={styles.middleBox}> */}
+      <TextInput label={'Rings Per Hour'}></TextInput>
+      {/* </View> */}
+
+      {/* <View style={styles.lowerMiddleBox}> */}
+      <TextInput label={'Chance of drop per ring'}></TextInput>
+      {/* </View> */}
+
+      {/* <View style={styles.lowerBox}> */}
+      <TextInput label={'Max drops per hour'}></TextInput>
+      {/* </View> */}
+      <View style={styles.switchContainer}>
+        <Text style={styles.dispensed}>Enable Auto Dispense</Text>
+        <Switch></Switch>
       </View>
 
-      <View style={styles.lowerMiddleBox}>
-        <TextInput label={'Chance of drop per ring'}></TextInput>
-      </View>
-
-      <View style={styles.lowerBox}>
-        <TextInput label={'Max drops per hour'}></TextInput>
-      </View>
-
-      <Switch style={styles.switchContainer}></Switch>
       <TextInput
         placeholder="please enter how many treats are in the device"
         mode="outlined"
@@ -45,80 +55,64 @@ const DeviceViewScreen: React.FC = () => {
 const styles = StyleSheet.create({
   main: {
     flex: 1,
+    flexDirection: 'column',
     justifyContent: 'center',
-    padding: 50,
-    backgroundColor: '#66ccff', // Optional: background color
+    padding: 20,
   },
   centerText: {
     fontSize: 24, // Adjust the font size as needed
     fontWeight: 'bold', // Optional: make the text bold
     textAlign: 'center',
   },
-  dispensed: {
-    position: 'absolute',
-    top: '50%',
-    left: '42%',
-  },
+  dispensed: {},
   middle: {
-    position: 'absolute',
-    bottom: '30%',
-    left: '19%',
     width: 300,
   },
 
   button: {
-    position: 'absolute',
+    marginBottom: 20,
+    marginTop: 20,
+
     justifyContent: 'center',
-    bottom: '8%',
-    left: '40%',
   },
 
   lifetime: {
-    position: 'absolute',
-    bottom: '100%',
-    left: '28%',
+    marginBottom: 20,
+    textAlign: 'center',
     fontSize: 40,
   },
   upperBox: {
     width: '80%',
     padding: 50,
-    left: '10%',
+
     backgroundColor: '#fff', // Optional: box background color
     borderRadius: 10, // Optional: rounded corners
-    bottom: '25%',
   },
 
   middleBox: {
-    width: '80%',
     padding: 50,
-    left: '10%',
+
     backgroundColor: '#fff', // Optional: box background color
     borderRadius: 10, // Optional: rounded corners
-    bottom: '10%',
   },
   lowerMiddleBox: {
     width: '80%',
     padding: 50,
-    left: '10%',
+
     backgroundColor: '#fff', // Optional: box background color
     borderRadius: 10, // Optional: rounded corners
-    bottom: '10%',
   },
 
   lowerBox: {
     width: '80%',
     padding: 50,
-    left: '10%',
+
     backgroundColor: '#fff', // Optional: box background color
     borderRadius: 10, // Optional: rounded corners
-    bottom: '100%',
   },
   switchContainer: {
-    flexDirection: 'row',
     justifyContent: 'center',
     padding: 20,
-    top: '65%',
-    right: '19%',
   },
 });
 
