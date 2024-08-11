@@ -21,16 +21,37 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
 
   const [RoomData, setRoomData] = useState<RoomListDataInterface[]>([]);
 
+  const goToCreateScreen = () => {
+    //insert navigation code here to take you to the create screen..
+    // and make sure to pass the addNewRoomToIt
+  };
+  const addNewRoom = (newRoom: RoomListDataInterface) => {};
+
   const onRandomRoomDataPress = () => {
-    setRoomData([
-      ...RoomData,
-      {
-        id: Math.random().toString(),
-        roomName: 'Random Room',
-        treatStatus: 'empty',
-        countDown: '',
-      },
-    ]);
+    const newRoomData = RoomData;
+    newRoomData.push({
+      id: Math.random().toString(),
+      roomName: 'Random Room',
+      treatStatus: 'empty',
+      countDown: '',
+    });
+
+    setRoomData(newRoomData);
+    console.log(RoomData);
+  };
+
+  const changeStateOfRoom = (id: string, newData: RoomListDataInterface) => {
+    const newRoomData = RoomData.map((room) => {
+      if (room.id === id) {
+        return {
+          ...room,
+          treatStatus: room.treatStatus === 'empty' ? 'full' : 'empty',
+        };
+      }
+      return room;
+    });
+
+    setRoomData(newRoomData);
   };
 
   return (
