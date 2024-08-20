@@ -6,10 +6,10 @@ import { View, StyleSheet, Text } from 'react-native';
 // Define the props interface for the component
 
 // Define the functional component using TypeScript
-const DeviceViewScreen: React.FC = () => {
+const NewDevice: React.FC = () => {
   return (
     <View style={styles.main}>
-      <Text style={styles.settings}>Settings</Text>
+      <Text style={styles.settings}>New Device</Text>
 
       <View style={styles.ringsPerHourBox}>
         <TextInput label={'Rings Per Hour'}></TextInput>
@@ -29,7 +29,7 @@ const DeviceViewScreen: React.FC = () => {
 
       <Button style={styles.button} mode="contained" onPress={() => {}}>
         {' '}
-        dispense now{' '}
+        Add Device{' '}
       </Button>
     </View>
   );
@@ -119,4 +119,4 @@ const styles = StyleSheet.create({
 });
 
 // Export the component
-export default DeviceViewScreen;
+export default NewDevice;
