@@ -91,7 +91,6 @@ const styles = StyleSheet.create({
     marginTop: 20,
 
     justifyContent: 'center',
-<<<<<<< HEAD
     bottom: '3%',
     left: '40%',
   },
@@ -136,7 +135,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff', // Optional: box background color
     borderRadius: 10, // Optional: rounded corners
     bottom: '-8%',
-=======
+    ///////
   },
 
   lifetime: {
@@ -172,9 +171,8 @@ const styles = StyleSheet.create({
 
     backgroundColor: '#fff', // Optional: box background color
     borderRadius: 10, // Optional: rounded corners
->>>>>>> d0c9edf135b01b080a145e6c6832f30da4ee55af
   },
-
+  //////
   switchContainer: {
     justifyContent: 'center',
     padding: 20,
