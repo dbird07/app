@@ -16,7 +16,6 @@ interface DeviceViewScreenProps {
 const DeviceViewScreen: React.FC<DeviceViewScreenProps> = () => {
   return (
     <View style={styles.main}>
-<<<<<<< HEAD
       <Text style={styles.settings}>Settings</Text>
 
       <View style={styles.ringsPerHourBox}>
@@ -34,7 +33,6 @@ const DeviceViewScreen: React.FC<DeviceViewScreenProps> = () => {
       <View style={styles.treatsRemainingBox}>
         <TextInput label={'Treats Remaining'}></TextInput>
       </View>
-=======
       <Text style={styles.lifetime}>Lifetime Stats</Text>
       {/* <View style={styles.upperBox}> */}
       <Text style={styles.dispensed}>Treats Dispensed</Text>
@@ -61,7 +59,6 @@ const DeviceViewScreen: React.FC<DeviceViewScreenProps> = () => {
         label={'treats remaining'}
         style={styles.middle}
       ></TextInput>
->>>>>>> d0c9edf135b01b080a145e6c6832f30da4ee55af
 
       <Button style={styles.button} mode="contained" onPress={() => {}}>
         {' '}
