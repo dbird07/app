@@ -16,7 +16,7 @@ interface DeviceViewScreenProps {
 const DeviceViewScreen: React.FC<DeviceViewScreenProps> = () => {
   return (
     <View style={styles.main}>
-      <Text style={styles.settings}>Settings</Text>
+      {/* <Text style={styles.settings}>Settings</Text>
 
       <View style={styles.ringsPerHourBox}>
         <TextInput label={'Rings Per Hour'}></TextInput>
@@ -32,7 +32,8 @@ const DeviceViewScreen: React.FC<DeviceViewScreenProps> = () => {
 
       <View style={styles.treatsRemainingBox}>
         <TextInput label={'Treats Remaining'}></TextInput>
-      </View>
+      </View> */}
+
       <Text style={styles.lifetime}>Lifetime Stats</Text>
       {/* <View style={styles.upperBox}> */}
       <Text style={styles.dispensed}>Treats Dispensed</Text>
@@ -95,48 +96,48 @@ const styles = StyleSheet.create({
     left: '40%',
   },
 
-  settings: {
-    position: 'absolute',
-    bottom: '105%',
-    left: '42%',
-    fontSize: 40,
-  },
+  // settings: {
+  //   position: 'absolute',
+  //   bottom: '105%',
+  //   left: '42%',
+  //   fontSize: 40,
+  // },
 
-  ringsPerHourBox: {
-    width: '70%',
-    padding: 35,
-    left: '15%',
-    backgroundColor: '#fff', // Optional: box background color
-    borderRadius: 10, // Optional: rounded corners
-    bottom: '7%',
-  },
-  chanceOfDropBox: {
-    width: '70%',
-    padding: 35,
-    left: '15%',
-    backgroundColor: '#fff', // Optional: box background color
-    borderRadius: 10, // Optional: rounded corners
-    bottom: '2%',
-  },
+  // ringsPerHourBox: {
+  //   width: '70%',
+  //   padding: 35,
+  //   left: '15%',
+  //   backgroundColor: '#fff', // Optional: box background color
+  //   borderRadius: 10, // Optional: rounded corners
+  //   bottom: '7%',
+  // },
+  // chanceOfDropBox: {
+  //   width: '70%',
+  //   padding: 35,
+  //   left: '15%',
+  //   backgroundColor: '#fff', // Optional: box background color
+  //   borderRadius: 10, // Optional: rounded corners
+  //   bottom: '2%',
+  // },
 
-  maxDropsBox: {
-    width: '70%',
-    padding: 35,
-    left: '15%',
-    backgroundColor: '#fff', // Optional: box background color
-    borderRadius: 10, // Optional: rounded corners
-    bottom: '-3%',
-  },
+  // maxDropsBox: {
+  //   width: '70%',
+  //   padding: 35,
+  //   left: '15%',
+  //   backgroundColor: '#fff', // Optional: box background color
+  //   borderRadius: 10, // Optional: rounded corners
+  //   bottom: '-3%',
+  // },
 
-  treatsRemainingBox: {
-    width: '70%',
-    padding: 35,
-    left: '15%',
-    backgroundColor: '#fff', // Optional: box background color
-    borderRadius: 10, // Optional: rounded corners
-    bottom: '-8%',
-    ///////
-  },
+  // treatsRemainingBox: {
+  //   width: '70%',
+  //   padding: 35,
+  //   left: '15%',
+  //   backgroundColor: '#fff', // Optional: box background color
+  //   borderRadius: 10, // Optional: rounded corners
+  //   bottom: '-8%',
+  //   ///////
+  // },
 
   lifetime: {
     marginBottom: 20,
