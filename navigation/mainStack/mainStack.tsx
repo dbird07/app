@@ -7,13 +7,16 @@ import LoginScreen from '../../screens/LoginScreen/Login.screen';
 import HomeScreen from '../../screens/HomeScreen/homeScreen';
 import DeviceViewScreen from '../../screens/DeviceViewScreen/deviceViewScreen';
 import { RoomListDataInterface } from '../../components/DeviceListItem/types';
+import NewDevice from '../../screens/CreateNewDeviceScreen/NewDevice';
+
 //https://callstack.github.io/react-native-paper/docs/components/TextInput/
 // Define the props interface for the component
 interface mainStackProps {}
 
 export type RootStackParamList = {
-  HomeScreen: undefined; // No parameters expected for the Home screen
+  HomeScreen: { newRoom?: RoomListDataInterface }; // No parameters expected for the Home screen
   DeviceViewScreen: { deviceData: RoomListDataInterface }; // Expecting deviceData for DeviceViewScreen
+  NewDevice: { createRoom: (device: RoomListDataInterface) => void };
 };
 
 const Stack = createStackNavigator<RootStackParamList>();
@@ -31,6 +34,11 @@ const MainStack: React.FC<mainStackProps> = (props) => {
           name="DeviceViewScreen"
           component={DeviceViewScreen}
           options={{ title: 'Device Details' }}
+        />
+        <Stack.Screen
+          name="NewDevice"
+          component={NewDevice}
+          options={{ title: 'Create New Device' }}
         />
       </Stack.Navigator>
       {/* <Stack.Navigator>

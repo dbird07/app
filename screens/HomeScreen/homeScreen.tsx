@@ -1,65 +1,31 @@
-// Import necessary modules from React and React Native
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { StyleSheet, FlatList, StatusBar } from 'react-native';
+import { Button } from 'react-native-paper';
 import {
-  View,
-  StyleSheet,
-  FlatList,
-  RootTagContext,
-  StatusBar,
-} from 'react-native';
+  useNavigation,
+  useIsFocused,
+  useRoute,
+  RouteProp,
+} from '@react-navigation/native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { RootStackParamList } from '../../navigation/mainStack/mainStack';
 import DeviceListItem from '../../components/DeviceListItem/deviceListItem';
 import { RoomListDataInterface } from '../../components/DeviceListItem/types';
-import { InitialRoomData } from './testData';
-import { Button } from 'react-native-paper';
-//https://callstack.github.io/react-native-paper/docs/components/TextInput/
-// Define the props interface for the component
-interface HomeScreenProps {}
 
-// Define the functional component using TypeScript
-const HomeScreen: React.FC<HomeScreenProps> = (props) => {
-  const onListItemPress = (deviceData: RoomListDataInterface) => {};
+type HomeScreenNavigationProp = StackNavigationProp<RootStackParamList, 'Home'>;
+type HomeScreenRouteProp = RouteProp<RootStackParamList, 'Home'>;
 
-  const [RoomData, setRoomData] = useState<RoomListDataInterface[]>([]);
+const HomeScreen: React.FC = () => {
+  const navigation = useNavigation<HomeScreenNavigationProp>();
+  const [rooms, setRooms] = useState<RoomListDataInterface[]>([]);
 
-  const goToCreateScreen = () => {
-    //insert navigation code here to take you to the create screen..
-    // and make sure to pass the addNewRoomToIt
-  };
-  const addNewRoom = (newRoom: RoomListDataInterface) => {};
-
-  const onRandomRoomDataPress = () => {
-    const newRoomData = RoomData;
-    newRoomData.push({
-      id: Math.random().toString(),
-      roomName: 'Random Room',
-      treatStatus: 'empty',
-      countDown: '',
-    });
-
-    setRoomData(newRoomData);
-    console.log(RoomData);
-  };
-
-  const changeStateOfRoom = (id: string, newData: RoomListDataInterface) => {
-    const newRoomData = RoomData.map((room) => {
-      if (room.id === id) {
-        return {
-          ...room,
-          treatStatus: room.treatStatus === 'empty' ? 'full' : 'empty',
-        };
-      }
-      return room;
-    });
-
-    setRoomData(newRoomData);
-  };
 
   return (
     <>
-      <Button onPress={onRandomRoomDataPress}> Add Randrom Data </Button>
+      <Button onPress={onDeviceViewPress}>Add New Device</Button>
       <FlatList
         style={styles.container}
-        data={RoomData}
+        data={rooms}
         renderItem={({ item }) => <DeviceListItem deviceData={item} />}
         keyExtractor={(item) => item.id}
       />
@@ -67,7 +33,6 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   );
 };
 
-// Create a stylesheet for styling the component
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -75,6 +40,4 @@ const styles = StyleSheet.create({
   },
 });
 
-// Export the component
 export default HomeScreen;
-// Define the functional component using TypeScript
