@@ -1,7 +1,6 @@
 import React, { createContext, useState, useContext, ReactNode } from 'react';
 import { DeviceListDataInterface } from './types';
-
-// Rename RoomListDataInterface to DeviceListDataInterface
+import { DeviceContext } from './use-devices.hook';
 
 export const DeviceProvider: React.FC<{ children: ReactNode }> = ({
   children,

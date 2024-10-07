@@ -1,7 +1,7 @@
 import { createContext, useContext } from 'react';
 import { DeviceListDataInterface } from './types';
 
-interface DeviceContextType {
+export interface DeviceContextType {
   devices: DeviceListDataInterface[];
   addDevice: (device: DeviceListDataInterface) => void;
   updateDevice: (
@@ -10,7 +10,9 @@ interface DeviceContextType {
   ) => void;
   getDevice: (id: string) => DeviceListDataInterface | undefined;
 }
-const DeviceContext = createContext<DeviceContextType | undefined>(undefined);
+export const DeviceContext = createContext<DeviceContextType | undefined>(
+  undefined,
+);
 
 export const useDevices = () => {
   const context = useContext(DeviceContext);
