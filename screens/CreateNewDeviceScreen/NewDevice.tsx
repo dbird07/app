@@ -19,6 +19,11 @@ const NewDevice: React.FC = () => {
   const [treatStatus, setTreatStatus] = useState('');
   const [countDown, setCountDown] = useState('');
 
+  const [ringsPerHour, setRingsPerHour] = useState('');
+  const [chanceOfDrop, setChanceOfDrop] = useState('');
+  const [maxDrops, setMaxDrops] = useState('');
+  const [treatsRemaining, setTreatsRemaining] = useState('');
+
   const onSubmit = () => {
     const newDevice = {
       id: Date.now().toString(),
@@ -29,6 +34,13 @@ const NewDevice: React.FC = () => {
 
     addDevice(newDevice);
     navigation.navigate('HomeScreen');
+      ringsPerHour: parseInt(ringsPerHour),
+      chanceOfDrop: parseFloat(chanceOfDrop),
+      maxDrops: parseInt(maxDrops),
+      treatsRemaining: parseInt(treatsRemaining),
+    };
+
+    navigation.navigate('Home', { newRoom: newDevice });
   };
 
   return (
@@ -40,6 +52,10 @@ const NewDevice: React.FC = () => {
           label="Room Name"
           value={roomName}
           onChangeText={setRoomName}
+          label="Rings Per Hour"
+          value={ringsPerHour}
+          onChangeText={setRingsPerHour}
+          keyboardType="numeric"
         />
       </View>
 
@@ -48,6 +64,10 @@ const NewDevice: React.FC = () => {
           label="Treat Status"
           value={treatStatus}
           onChangeText={setTreatStatus}
+          label="Chance of drop per ring"
+          value={chanceOfDrop}
+          onChangeText={setChanceOfDrop}
+          keyboardType="numeric"
         />
       </View>
 
@@ -56,6 +76,22 @@ const NewDevice: React.FC = () => {
           label="Count Down"
           value={countDown}
           onChangeText={setCountDown}
+        />
+      </View>
+
+          label="Max drops per hour"
+          value={maxDrops}
+          onChangeText={setMaxDrops}
+          keyboardType="numeric"
+        />
+      </View>
+
+      <View style={styles.inputBox}>
+        <TextInput
+          label="Treats Remaining"
+          value={treatsRemaining}
+          onChangeText={setTreatsRemaining}
+          keyboardType="numeric"
         />
       </View>
 
