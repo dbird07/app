@@ -19,7 +19,7 @@ const DeviceListItem: React.FC<{
     useNavigation<StackNavigationProp<RootStackParamList, 'HomeScreen'>>(); // Get the navigation object using the hook
 
   const onDeviceViewPress = () => {
-    navigation.navigate('DeviceViewScreen', { deviceData });
+    navigation.navigate('DeviceViewScreen', { deviceId: deviceData.id });
   };
 
   return (
@@ -33,17 +33,6 @@ const DeviceListItem: React.FC<{
       </View>
     </TouchableOpacity>
   );
-
-  // return (
-  //   <Swipeable
-  //     renderRightActions={() => <Text style={styles.text}>Delete</Text>}
-  //   >
-  //     <View style={styles.main}>
-  //       <Text style={styles.text}>{deviceData.roomName} </Text>
-  //     </View>
-  //   </Swipeable>
-
-  // );
 };
 
 // Create a stylesheet for styling the component
