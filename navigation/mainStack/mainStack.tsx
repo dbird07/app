@@ -4,6 +4,7 @@ import React from 'react';
 import DeviceViewScreen from '../../screens/DeviceViewScreen/deviceViewScreen';
 import NewDevice from '../../screens/CreateNewDeviceScreen/NewDevice';
 import { DeviceProvider } from '../../providers/device-provider/device-provider';
+import HomeScreen from '../../screens/HomeScreen/homeScreen';
 
 export type RootStackParamList = {
   HomeScreen: undefined;

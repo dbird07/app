@@ -1,10 +1,10 @@
-import React, { createContext, useState, useContext, ReactNode } from 'react';
-import { DeviceListDataInterface } from './types';
-import { DeviceContext } from './use-devices.hook';
+import React, { useState, ReactNode } from 'react';
+import { DeviceListDataInterface, DeviceContextType } from './types';
+import { DeviceContext, useDevices } from './use-devices.hook';
 
 export const DeviceProvider: React.FC<{ children: ReactNode }> = ({
   children,
-}) => {
+}): JSX.Element => {
   const [devices, setDevices] = useState<DeviceListDataInterface[]>([]);
 
   const addDevice = (device: DeviceListDataInterface) => {
@@ -26,11 +26,14 @@ export const DeviceProvider: React.FC<{ children: ReactNode }> = ({
     return devices.find((device) => device.id === id);
   };
 
+  const value: DeviceContextType = {
+    devices,
+    addDevice,
+    updateDevice,
+    getDevice,
+  };
+
   return (
-    <DeviceContext.Provider
-      value={{ devices, addDevice, updateDevice, getDevice }}
-    >
-      {children}
-    </DeviceContext.Provider>
+    <DeviceContext.Provider value={value}>{children}</DeviceContext.Provider>
   );
 };
