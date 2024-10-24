@@ -1,6 +1,6 @@
 import React from 'react';
-import { StyleSheet, FlatList, StatusBar } from 'react-native';
-import { Button } from 'react-native-paper';
+import { StyleSheet, FlatList, StatusBar, View } from 'react-native';
+import { Button, Text } from 'react-native-paper';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../../navigation/mainStack/mainStack';

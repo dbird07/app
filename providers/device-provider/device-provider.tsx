@@ -8,6 +8,7 @@ export const DeviceProvider: React.FC<{ children: ReactNode }> = ({
   const [devices, setDevices] = useState<DeviceListDataInterface[]>([]);
 
   const addDevice = (device: DeviceListDataInterface) => {
+    //make sure you dont double up on room names
     setDevices((prevDevices) => [...prevDevices, device]);
   };
 

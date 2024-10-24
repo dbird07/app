@@ -15,7 +15,6 @@ type NewDeviceScreenNavigationProp = StackNavigationProp<
 const NewDevice: React.FC = () => {
   const navigation = useNavigation<NewDeviceScreenNavigationProp>();
   const { addDevice } = useDevices();
-
   const [roomName, setRoomName] = useState('');
   const [treatStatus, setTreatStatus] = useState('');
   const [countDown, setCountDown] = useState('');
